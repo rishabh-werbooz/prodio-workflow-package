@@ -60,6 +60,7 @@
 // };
 
 import type { FlowFeedbackStep } from "..";
+import { getPersistentState } from "../../lib/persistent-state";
 import type { FlowState } from "../flow-state";
 import { createRoot, getStepFooter, getStepHeader } from "./render-common";
 
@@ -102,9 +103,12 @@ export const renderFeedbackElement = ({
               });
 
               try {
-                console.log(formJson);
-                console.log(step);
+                console.log("PACKAGE Form===> ", formJson);
+                console.log("PACKAGE Step===>", step);
                 console.log("RIGHT HERE");
+                const data = getPersistentState()
+
+                console.log("PACKAGE Data ===> ", data)
                 // const response = await fetch(step.apiEndpoint, {
                 //   method: "POST",
                 //   headers: { "Content-Type": "application/json" },
@@ -145,9 +149,7 @@ export const renderFeedbackElement = ({
                 />
               </div>
             ))}
-            <button type="submit" className="flows-primary-btn">
-              Submit
-            </button>
+
             {getStepFooter({ step, isFirstStep, isLastStep })}
           </form>
         )}
