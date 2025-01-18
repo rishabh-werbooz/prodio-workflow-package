@@ -1,5 +1,5 @@
 {
-  "name": "@crazy/workflow",
+  "name": "@crazy-web/workflow",
   "description": "Insihts - SDK for building advanced user onboarding tours. Supports no-code or in-code flows. With advanced features like Wait or Conditional steps to create the ultimate onboarding tour, boosting product adoption. Optimize user journey, increase engagement, and enhance product experiences with Insihts Workflow.",
   "keywords": [
     "react",
@@ -23,7 +23,7 @@
     "product-adoption",
     "product-tours"
   ],
-  
+
   "version": "1.0.1",
   "repository": {
     "type": "git",
