@@ -23,6 +23,7 @@
     "product-adoption",
     "product-tours"
   ],
+  
   "version": "1.0.1",
   "repository": {
     "type": "git",
