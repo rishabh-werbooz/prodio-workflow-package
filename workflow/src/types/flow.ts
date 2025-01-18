@@ -227,7 +227,7 @@ export interface FeedbackFieldProps {
    * Type of the field.
    * @defaultValue `text`
    */
-  type?: "text" | "email" | "textarea";
+  type?: "text" | "email" | "number";
   /**
    * Required field.
    * @defaultValue `false`

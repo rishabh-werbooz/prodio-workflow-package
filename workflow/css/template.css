@@ -250,6 +250,44 @@
 }
 
 
+.flows-feedback-container{
+  padding: 10px; 
+  display: flex; 
+  flex-direction: column; 
+  gap: 1rem;
+}
+
+.flows-feedback-body{
+  margin: 0; 
+  font-size: 14px; 
+  line-height: 1.5;
+  color: #121212;
+}
+
+.flows-feedback-form{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+}
+
+.flows-feedback-form-group{
+  display: flex;
+  flex-direction: column; 
+  gap: 2px; 
+  margin-bottom: 20px;
+}
+
+.flows-feedback-form-label{
+  font-size: 13px;
+}
+
+.flows-feedback-form-input{
+  border: 1px solid #ccc; 
+  padding: 3px; 
+  border-radius: .25rem; 
+  font-size: 14px; 
+}
+
 
 /* Banner styles */
 
